@@ -41,7 +41,7 @@ Two pixels are connected when they are neighbors and have the same value. They c
 ```
 As soon as the slider is moved the right panel will update with the labeled image to help choosing the correct treshold.
 
-![Labeled image](./Screenshot from 2014-07-26 12:55:34.png "Labeled image")
+![Labeled image](./Screenshot from 2014-07-26 12:55:20.png "Labeled image")
 
 To close the program hit close, to start the fitting procedure press continue.
 Ellipses are fitted to the features to account for stigmation while writing and taking the images. 
