@@ -21,5 +21,5 @@ there is no general rule, it must be found out iteratively.
 there is an hidden last argument if working remotely and want to draw the GUI remotely and not over tunneled X11.
 
 The output of the fitted measurements is saved on the disk as .csv file for every image.
-
+![Main GUI](./Screenshot from 2014-07-26 12:55:34.png "Interface when opening the first reference file")
 Use the helper functions in stat.py to parse the results and produce meaningful plots.
