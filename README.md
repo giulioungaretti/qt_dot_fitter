@@ -26,7 +26,9 @@ oUse the helper functions in stat.py to parse the results and produce meaningful
 
 Main GUI when opening the image 
 ![Main GUI](./Screenshot from 2014-07-26 12:55:34.png "Interface when opening the first reference file")
-Image is labeled  connecting regions of an integer array. 
+Image is labeled  connecting regions of an integer array.
+After a intensity threshold has been selected with the slider to separate the contribution from the substrates and the geometrical dots (brighter
+).
 Two pixels are connected when they are neighbors and have the same value. They can be neighbors either in a 4- or 8-connected sense:
 ```
 4-connectivity      8-connectivity
@@ -37,4 +39,11 @@ Two pixels are connected when they are neighbors and have the same value. They c
       |               /  |  \
      [ ]           [ ]  [ ]  [ ]
 ```
+As soon as the slider is moved the right panel will update with the labeled image to help choosing the correct treshold.
 
+![Labeled image](./Screenshot from 2014-07-26 12:55:34.png "Labeled image")
+
+To close the program hit close, to start the fitting procedure press continue.
+Ellipses are fitted to the features to account for stigmation while writing and taking the images. 
+The results of the fitting is plotted live in an external window, by superimposing a circle with a radius which is the average of the  ellipses radii.
+![fitted Cricles](./IMAGE6176.jpg "Fitted image")
