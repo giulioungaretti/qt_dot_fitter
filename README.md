@@ -9,7 +9,7 @@ Qt and pyton GUI to measure statistics on SEM images(image files, bundled with t
 
 run the main app, app.py with :
 
-```
+```bash
 python /qt_dot_fitter/app.py ./path_to_/a_reference_image.bmp ./root_foolder_with pictures min_size format
 ```
 
